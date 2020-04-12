@@ -1,2 +1,2 @@
 module.exports = {
-  pr
+  presets: ["@vue/cli-p
