@@ -7,3 +7,15 @@
       <template v-if="tickers.length">
         <hr class="w-full border-t border-gray-600 my-4" />
         <div>Filter:
+          <input class="pr-10 border-gray-300 text-gray-900 focus:outline-none focus:ring-gray-500 focus:border-gray-500 sm:text-sm rounded-md"
+                 v-model="filter"
+          />
+          <button
+              class="
+              my-4
+              inline-flex
+              items-center
+              mx-2
+              py-2
+              px-4
+              border border-transparent
