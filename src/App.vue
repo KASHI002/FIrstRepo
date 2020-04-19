@@ -64,3 +64,24 @@
               focus:ring-gray-500"
 
               v-if="hasNextPage"
+              @click="page = page + 1"
+          >
+            forward
+          </button>
+        </div>
+        <hr class="w-full border-t border-gray-600 my-4" />
+        <dl class="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-3">
+          <div
+            v-for="t in paginatedTickers"
+            :key="t.name"
+            @click="select(t)"
+            :class="{
+              'border-4': selectedTicker === t,
+            }"
+            class="
+              bg-white
+              overflow-hidden
+              shadow
+              rounded-lg
+              border-purple-800 border-solid
+              cursor-pointer
