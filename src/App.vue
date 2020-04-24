@@ -141,3 +141,24 @@
 import { subscribeToTicker, unsubscribeFromTicker } from "./api";
 import AddTicker from "./components/AddTicker";
 import TickerGraph from "./components/TickerGraph";
+
+export default {
+  name: "App",
+
+  components: {
+    TickerGraph,
+      AddTicker,
+  },
+
+  data() {
+    return {
+      filter: "",
+      tickers: [],
+      graph: [],
+      selectedTicker: null,
+      page: 1
+    };
+  },
+
+  created() {
+    const windowData = Object.fromEntries(new URL(window.location).searchParams.entries());
