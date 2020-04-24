@@ -100,3 +100,23 @@
               @click.stop="handleDelete(t)"
               class="
                 flex
+                items-center
+                justify-center
+                font-medium
+                w-full
+                bg-gray-100
+                px-4
+                py-4
+                sm:px-6
+                text-md text-gray-500
+                hover:text-gray-600 hover:bg-gray-200 hover:opacity-20
+                transition-all
+                focus:outline-none
+              "
+            >
+              <svg
+                class="h-5 w-5"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="#718096"
+                aria-hidden="true"
