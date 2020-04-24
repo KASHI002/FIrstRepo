@@ -85,3 +85,18 @@
               rounded-lg
               border-purple-800 border-solid
               cursor-pointer
+            "
+          >
+            <div class="px-4 py-5 sm:p-6 text-center">
+              <dt class="text-sm font-medium text-gray-500 truncate">
+                {{ t.name }} - USD
+              </dt>
+              <dd class="mt-1 text-3xl font-semibold text-gray-900">
+                {{ formatPrice(t.price) }}
+              </dd>
+            </div>
+            <div class="w-full border-t border-gray-200"></div>
+            <button
+              @click.stop="handleDelete(t)"
+              class="
+                flex
