@@ -162,3 +162,29 @@ export default {
 
   created() {
     const windowData = Object.fromEntries(new URL(window.location).searchParams.entries());
+
+    if (windowData.filter) {
+      this.filter = windowData.filter;
+    }
+
+    if (windowData.page) {
+      this.page = windowData.page;
+    }
+
+    const tickersData = localStorage.getItem('crypto-list');
+
+    if (tickersData) {
+      this.tickers = JSON.parse(tickersData);
+      this.tickers.forEach(ticker => {
+        subscribeToTicker(ticker.name, (newPrice) =>
+            this.updateTicker(ticker.name, newPrice));
+      });
+    }
+  },
+
+  computed: {
+    tooManyTickersAdd() {
+      return this.tickers.length > 10
+    },
+    
+    startIndex() {
