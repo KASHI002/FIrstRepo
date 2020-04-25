@@ -188,3 +188,27 @@ export default {
     },
     
     startIndex() {
+       return (this.page - 1) * 6;
+    },
+
+    endIndex() {
+      return this.page * 6;
+    },
+
+    filteredTickers() {
+      return this.tickers.filter(ticker =>
+          ticker.name.includes(this.filter)
+      );
+    },
+    
+    paginatedTickers() {
+      return this.filteredTickers.slice(this.startIndex, this.endIndex);
+    },
+
+    hasNextPage() {
+      return this.filteredTickers.length > this.endIndex;
+    },
+
+    pageStateOptions() {
+      return {
+        filter: this.filter,
