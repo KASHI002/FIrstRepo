@@ -236,3 +236,28 @@ export default {
       if (price === '-') {
         return price;
       }
+      return price > 1
+          ? price.toFixed(2)
+          : price.toPrecision(2);
+    },
+    
+    add(ticker) {
+      const currentTicker = {
+        name: ticker,
+        price: "-",
+      };
+
+      this.tickers = [...this.tickers, currentTicker];
+      this.filter = "";
+      subscribeToTicker(currentTicker.name, newPrice =>
+          this.updateTicker(currentTicker.name, newPrice)
+      );
+    },
+
+    reset() {
+      this.selectedTicker = null;
+    },
+
+    select(ticker) {
+      this.selectedTicker = ticker;
+    },
