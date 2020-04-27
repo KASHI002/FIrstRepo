@@ -212,3 +212,27 @@ export default {
     pageStateOptions() {
       return {
         filter: this.filter,
+        page: this.page
+      }
+    }
+  },
+
+  methods: {
+    updateTicker(tickerName, price) {
+      this.tickers
+          .filter(t => t.name === tickerName)
+          .forEach(t => {
+            if (t === this.selectedTicker) {
+              this.graph.push(price);
+              while (this.graph.length > this.maxGraphElements) {
+                this.graph.shift();
+              }
+            }
+            t.price = price
+          })
+    },
+
+    formatPrice(price) {
+      if (price === '-') {
+        return price;
+      }
