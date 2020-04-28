@@ -261,3 +261,36 @@ export default {
     select(ticker) {
       this.selectedTicker = ticker;
     },
+
+    handleDelete(tickerToRemove) {
+      this.tickers = this.tickers.filter((t) => t !== tickerToRemove);
+      if (this.selectedTicker === tickerToRemove) {
+        this.selectedTicker = null
+      }
+      unsubscribeFromTicker(tickerToRemove.name)
+    },
+  },
+
+  watch: {
+    selectedTicker() {
+      this.graph = [];
+      
+    },
+    tickers() {
+      localStorage.setItem('crypto-list', JSON.stringify(this.tickers));
+    },
+    paginatedTickers() {
+      if (this.paginatedTickers.length === 0 && this.page > 1) {
+        this.page -= 1;
+      }
+    },
+    filter() {
+      this.page = 1;
+    },
+    pageStateOptions(value) {
+      window.history.pushState(
+          null, document.title,
+          `${window.location.pathname}?filter=${value.filter}&page=${value.page}`
+      );
+    }
+  }
