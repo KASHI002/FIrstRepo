@@ -3,4 +3,5 @@ const API_KEY =
 
 const tickersHandlers = new Map();
 
-const socket = n
+const socket = new WebSocket(
+  
