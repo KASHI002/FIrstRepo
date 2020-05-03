@@ -7,4 +7,4 @@ const socket = new WebSocket(
   `wss://streamer.cryptocompare.com/v2?api_key=${API_KEY}`
 );
 
-const A
+const AGGREGATE_INDEX
