@@ -4,4 +4,7 @@ const API_KEY =
 const tickersHandlers = new Map();
 
 const socket = new WebSocket(
-  `wss://streamer.cryptocompare.com/v2?api_key=$
+  `wss://streamer.cryptocompare.com/v2?api_key=${API_KEY}`
+);
+
+const A
