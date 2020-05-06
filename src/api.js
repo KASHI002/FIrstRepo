@@ -9,4 +9,4 @@ const socket = new WebSocket(
 
 const AGGREGATE_INDEX = "5";
 
-socket.addE
+socket.addEventListener("message", (e) =
