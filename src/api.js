@@ -12,4 +12,5 @@ const AGGREGATE_INDEX = "5";
 socket.addEventListener("message", (e) => {
   const {
     TYPE: type,
-    F
+    FROMSYMBOL: currency,
+    
