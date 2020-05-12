@@ -13,4 +13,5 @@ socket.addEventListener("message", (e) => {
   const {
     TYPE: type,
     FROMSYMBOL: currency,
-    
+    PRICE: newPrice,
+  
