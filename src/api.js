@@ -14,4 +14,5 @@ socket.addEventListener("message", (e) => {
     TYPE: type,
     FROMSYMBOL: currency,
     PRICE: newPrice,
-  } = JSON.parse
+  } = JSON.parse(e.data);
+  if (type !
