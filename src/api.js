@@ -15,4 +15,4 @@ socket.addEventListener("message", (e) => {
     FROMSYMBOL: currency,
     PRICE: newPrice,
   } = JSON.parse(e.data);
-  if (type !
+  if (type != AGGREGATE_INDEX || n
