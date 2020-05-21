@@ -19,4 +19,4 @@ socket.addEventListener("message", (e) => {
     return;
   }
 
-  co
+  const handlers = tickers
