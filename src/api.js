@@ -16,3 +16,7 @@ socket.addEventListener("message", (e) => {
     PRICE: newPrice,
   } = JSON.parse(e.data);
   if (type != AGGREGATE_INDEX || newPrice === undefined) {
+    return;
+  }
+
+  co
