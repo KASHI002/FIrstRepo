@@ -19,4 +19,5 @@ socket.addEventListener("message", (e) => {
     return;
   }
 
-  const handlers = tickersHandlers.get(currency) 
+  const handlers = tickersHandlers.get(currency) ?? [];
+  handlers.forEac
