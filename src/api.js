@@ -19,4 +19,4 @@ socket.addEventListener("message", (e) => {
     return;
   }
 
-  const handlers = tickers
+  const handlers = tickersHandlers.get(currency) 
