@@ -20,4 +20,7 @@ socket.addEventListener("message", (e) => {
   }
 
   const handlers = tickersHandlers.get(currency) ?? [];
-  handlers.forEach((fn) => fn(newP
+  handlers.forEach((fn) => fn(newPrice));
+});
+
+function sendTo
