@@ -23,4 +23,4 @@ socket.addEventListener("message", (e) => {
   handlers.forEach((fn) => fn(newPrice));
 });
 
-function sendTo
+function sendToWebSocket(message)
