@@ -23,4 +23,5 @@ socket.addEventListener("message", (e) => {
   handlers.forEach((fn) => fn(newPrice));
 });
 
-function sendToWebSocket(message)
+function sendToWebSocket(message) {
+  const stringifiedMe
