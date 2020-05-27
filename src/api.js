@@ -24,4 +24,5 @@ socket.addEventListener("message", (e) => {
 });
 
 function sendToWebSocket(message) {
-  const stringifiedMessage = JSON.str
+  const stringifiedMessage = JSON.stringify(message);
+  if 
