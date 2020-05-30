@@ -28,3 +28,6 @@ function sendToWebSocket(message) {
   if (socket.readyState === WebSocket.OPEN) {
     socket.send(stringifiedMessage);
     return;
+  }
+
+  socket.addEventLi
