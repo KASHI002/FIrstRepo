@@ -32,3 +32,5 @@ function sendToWebSocket(message) {
 
   socket.addEventListener(
     "open",
+    () => {
+   
