@@ -34,4 +34,5 @@ function sendToWebSocket(message) {
     "open",
     () => {
       socket.send(stringifiedMessage);
-    }
+    },
+    { once: true 
