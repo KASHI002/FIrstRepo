@@ -39,4 +39,4 @@ function sendToWebSocket(message) {
   );
 }
 
-function
+function subscribeToTickerOn
