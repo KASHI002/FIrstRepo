@@ -39,4 +39,5 @@ function sendToWebSocket(message) {
   );
 }
 
-function subscribeToTickerOn
+function subscribeToTickerOnWs(ticker) {
+  se
