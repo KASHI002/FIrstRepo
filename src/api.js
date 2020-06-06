@@ -40,4 +40,5 @@ function sendToWebSocket(message) {
 }
 
 function subscribeToTickerOnWs(ticker) {
-  se
+  sendToWebSocket({
+    action:
