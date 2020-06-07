@@ -46,4 +46,4 @@ function subscribeToTickerOnWs(ticker) {
   });
 }
 
-function unsubscribeFromTickerOn
+function unsubscribeFromTickerOnWs(ticker) {
