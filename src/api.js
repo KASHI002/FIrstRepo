@@ -42,4 +42,8 @@ function sendToWebSocket(message) {
 function subscribeToTickerOnWs(ticker) {
   sendToWebSocket({
     action: "SubAdd",
-    subs: [`5~CCCAGG~${ticker}~USD`
+    subs: [`5~CCCAGG~${ticker}~USD`],
+  });
+}
+
+function
