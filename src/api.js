@@ -47,4 +47,5 @@ function subscribeToTickerOnWs(ticker) {
 }
 
 function unsubscribeFromTickerOnWs(ticker) {
-  sendToWebSocket
+  sendToWebSocket({
+    action: "SubRe
