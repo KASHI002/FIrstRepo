@@ -49,4 +49,4 @@ function subscribeToTickerOnWs(ticker) {
 function unsubscribeFromTickerOnWs(ticker) {
   sendToWebSocket({
     action: "SubRemove",
-    su
+    subs: [`5~CCCAGG~${ti
