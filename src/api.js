@@ -53,4 +53,4 @@ function unsubscribeFromTickerOnWs(ticker) {
   });
 }
 
-export 
+export const subscribeToTicker
