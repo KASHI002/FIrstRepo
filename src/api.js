@@ -54,4 +54,4 @@ function unsubscribeFromTickerOnWs(ticker) {
 }
 
 export const subscribeToTicker = (ticker, cb) => {
- 
+  const subscribers = tickersHandlers.get(tic
