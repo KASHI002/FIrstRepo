@@ -55,4 +55,6 @@ function unsubscribeFromTickerOnWs(ticker) {
 
 export const subscribeToTicker = (ticker, cb) => {
   const subscribers = tickersHandlers.get(ticker) || [];
-  tickersHandlers.set(ticker, [...subscriber
+  tickersHandlers.set(ticker, [...subscribers, cb]);
+
+  subscrib
