@@ -57,4 +57,7 @@ export const subscribeToTicker = (ticker, cb) => {
   const subscribers = tickersHandlers.get(ticker) || [];
   tickersHandlers.set(ticker, [...subscribers, cb]);
 
-  subscrib
+  subscribeToTickerOnWs(ticker);
+};
+
+e
