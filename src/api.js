@@ -60,4 +60,4 @@ export const subscribeToTicker = (ticker, cb) => {
   subscribeToTickerOnWs(ticker);
 };
 
-e
+export const unsubs
