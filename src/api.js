@@ -61,4 +61,4 @@ export const subscribeToTicker = (ticker, cb) => {
 };
 
 export const unsubscribeFromTicker = (ticker) => {
-  tic
+  tickersHandlers.delete(tic
