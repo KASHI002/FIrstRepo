@@ -2,4 +2,5 @@
   <button
     type="button"
     :disabled="disabled"
-    :cla
+    :class="{
+      'opacity-50
