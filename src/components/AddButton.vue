@@ -1,4 +1,5 @@
 <template>
   <button
     type="button"
-    :dis
+    :disabled="disabled"
+    :cla
