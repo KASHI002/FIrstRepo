@@ -3,4 +3,6 @@
     type="button"
     :disabled="disabled"
     :class="{
-      'opacity-50
+      'opacity-50': disabled,
+    }"
+ 
