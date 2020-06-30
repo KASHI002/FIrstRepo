@@ -5,4 +5,6 @@
     :class="{
       'opacity-50': disabled,
     }"
- 
+    class="
+      my-4
+    
