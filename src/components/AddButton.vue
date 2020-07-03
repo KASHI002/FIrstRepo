@@ -11,4 +11,5 @@
       items-center
       py-2
       px-4
-     
+      border border-transparent
+ 
