@@ -12,4 +12,5 @@
       py-2
       px-4
       border border-transparent
- 
+      shadow-sm
+      text
