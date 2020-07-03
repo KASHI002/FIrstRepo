@@ -8,4 +8,5 @@
     class="
       my-4
       inline-flex
-    
+      items-center
+      
