@@ -15,4 +15,5 @@
       shadow-sm
       text-sm
       leading-4
-      f
+      font-medium
+      rounded-f
