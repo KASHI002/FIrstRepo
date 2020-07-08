@@ -13,4 +13,6 @@
       px-4
       border border-transparent
       shadow-sm
-      text
+      text-sm
+      leading-4
+      f
