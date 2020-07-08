@@ -16,4 +16,6 @@
       text-sm
       leading-4
       font-medium
-      rounded-f
+      rounded-full
+      text-white
+      
