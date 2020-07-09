@@ -19,4 +19,5 @@
       rounded-full
       text-white
       bg-gray-600
-      hover:bg-
+      hover:bg-gray-700
+      transition-c
