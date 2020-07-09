@@ -18,4 +18,5 @@
       font-medium
       rounded-full
       text-white
-      
+      bg-gray-600
+      hover:bg-
