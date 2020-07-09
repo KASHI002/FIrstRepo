@@ -20,4 +20,5 @@
       text-white
       bg-gray-600
       hover:bg-gray-700
-      transition-c
+      transition-colors
+      duration-300
