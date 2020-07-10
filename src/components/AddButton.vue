@@ -22,4 +22,4 @@
       hover:bg-gray-700
       transition-colors
       duration-300
-      focus:out
+      focus:outline-none focus:ring-2 
