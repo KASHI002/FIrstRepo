@@ -25,4 +25,4 @@
       focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500
     "
   >
-    <!-- Her
+    <!-- Heroicon name: solid
