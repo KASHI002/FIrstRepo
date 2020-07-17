@@ -26,4 +26,5 @@
     "
   >
     <!-- Heroicon name: solid/mail -->
-    <sv
+    <svg
+      class="-ml-
