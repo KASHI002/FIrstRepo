@@ -25,4 +25,5 @@
       focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500
     "
   >
-    <!-- Heroicon name: solid
+    <!-- Heroicon name: solid/mail -->
+    <sv
