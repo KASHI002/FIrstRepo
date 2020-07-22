@@ -29,4 +29,5 @@
     <svg
       class="-ml-0.5 mr-2 h-6 w-6"
       xmlns="http://www.w3.org/2000/svg"
-      wid
+      width="30"
+      heig
