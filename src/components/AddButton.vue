@@ -27,4 +27,5 @@
   >
     <!-- Heroicon name: solid/mail -->
     <svg
-      class="-ml-0.5 mr-2 h-6 
+      class="-ml-0.5 mr-2 h-6 w-6"
+      xmlns="http://
