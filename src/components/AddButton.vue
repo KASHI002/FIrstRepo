@@ -32,4 +32,6 @@
       width="30"
       height="30"
       viewBox="0 0 24 24"
-      fil
+      fill="#ffffff"
+    >
+ 
