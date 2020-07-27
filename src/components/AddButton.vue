@@ -35,4 +35,4 @@
       fill="#ffffff"
     >
       <path
-        d
+        d="M13 7h-2v4H7v2h4v4h2
