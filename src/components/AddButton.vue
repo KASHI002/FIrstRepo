@@ -42,4 +42,7 @@
   </button>
 </template>
 <script>
-export default 
+export default {
+  props: {
+    disabled: {
+ 
