@@ -45,4 +45,4 @@
 export default {
   props: {
     disabled: {
- 
+      type: Boolean,
