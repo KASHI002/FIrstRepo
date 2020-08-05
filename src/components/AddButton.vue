@@ -41,4 +41,5 @@
     Add
   </button>
 </template>
-<s
+<script>
+export default 
