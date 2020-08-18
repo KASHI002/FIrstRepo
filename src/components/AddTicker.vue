@@ -5,4 +5,4 @@
         <label for="wallet" class="block text-sm font-medium text-gray-700"
           >Ticker</label
         >
-        <div class="mt-1 
+        <div class="mt-1 relative roun
