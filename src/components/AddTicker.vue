@@ -7,4 +7,5 @@
         >
         <div class="mt-1 relative rounded-md shadow-md">
           <input
-            v-model="ticke
+            v-model="ticker"
+            @keydown.ente
