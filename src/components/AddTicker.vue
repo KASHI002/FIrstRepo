@@ -6,3 +6,4 @@
           >Ticker</label
         >
         <div class="mt-1 relative rounded-md shadow-md">
+          <inpu
