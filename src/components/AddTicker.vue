@@ -8,4 +8,5 @@
         <div class="mt-1 relative rounded-md shadow-md">
           <input
             v-model="ticker"
-            @keydown.ente
+            @keydown.enter="add"
+            ty
