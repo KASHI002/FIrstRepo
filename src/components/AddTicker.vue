@@ -9,4 +9,5 @@
           <input
             v-model="ticker"
             @keydown.enter="add"
-            ty
+            type="text"
+         
