@@ -10,4 +10,5 @@
             v-model="ticker"
             @keydown.enter="add"
             type="text"
+            name="wallet"
          
