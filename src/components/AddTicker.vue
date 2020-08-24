@@ -11,4 +11,5 @@
             @keydown.enter="add"
             type="text"
             name="wallet"
-         
+            id="wallet"
+          
