@@ -16,4 +16,5 @@
               block
               w-full
               pr-10
-              b
+              border-gray-300
+       
