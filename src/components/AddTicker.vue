@@ -12,4 +12,5 @@
             type="text"
             name="wallet"
             id="wallet"
-          
+            class="
+              bl
