@@ -13,4 +13,6 @@
             name="wallet"
             id="wallet"
             class="
-              bl
+              block
+              w-full
+  
