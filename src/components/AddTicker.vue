@@ -18,4 +18,4 @@
               pr-10
               border-gray-300
               text-gray-900
-              focus:outline-none focus:ring-gr
+              focus:outline-none focus:ring-gray-500 focus:border-gray-500
