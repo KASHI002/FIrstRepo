@@ -22,4 +22,6 @@
               sm:text-sm
               rounded-md
             "
-            placeholder="Example BT
+            placeholder="Example BTC"
+          />
+   
