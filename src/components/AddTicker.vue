@@ -22,4 +22,4 @@
               sm:text-sm
               rounded-md
             "
-            p
+            placeholder="Example BT
