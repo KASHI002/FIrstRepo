@@ -25,4 +25,6 @@
             placeholder="Example BTC"
           />
         </div>
-      <
+      </div>
+    </div>
+  
