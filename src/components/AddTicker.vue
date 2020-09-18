@@ -27,4 +27,4 @@
         </div>
       </div>
     </div>
-    <add-button @click="add" :disab
+    <add-button @click="add" :disabled="disabled"> </add-
