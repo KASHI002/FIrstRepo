@@ -27,4 +27,6 @@
         </div>
       </div>
     </div>
-    <add-button @click="add" :disabled="disabled"> </add-
+    <add-button @click="add" :disabled="disabled"> </add-button>
+  </section>
+<
