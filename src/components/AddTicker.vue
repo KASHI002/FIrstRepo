@@ -32,4 +32,7 @@
 </template>
 
 <script>
-import AddButton from "./A
+import AddButton from "./AddButton";
+
+export default {
+  data
