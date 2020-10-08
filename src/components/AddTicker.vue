@@ -35,4 +35,5 @@
 import AddButton from "./AddButton";
 
 export default {
-  data
+  data() {
+    retu
