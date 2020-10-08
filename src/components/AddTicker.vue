@@ -36,4 +36,5 @@ import AddButton from "./AddButton";
 
 export default {
   data() {
-    retu
+    return {
+      ticker:
