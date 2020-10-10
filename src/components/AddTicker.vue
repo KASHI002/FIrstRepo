@@ -41,4 +41,6 @@ export default {
     };
   },
 
-  
+  props: {
+    disabled: {
+    
