@@ -37,4 +37,8 @@ import AddButton from "./AddButton";
 export default {
   data() {
     return {
-      ticker:
+      ticker: "",
+    };
+  },
+
+  
