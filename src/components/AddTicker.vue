@@ -44,4 +44,5 @@ export default {
   props: {
     disabled: {
       type: Boolean,
-      require
+      required: false,
+      
