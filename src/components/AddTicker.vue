@@ -50,3 +50,4 @@ export default {
   },
 
   emits: {
+    "add-ticker": (
