@@ -50,4 +50,4 @@ export default {
   },
 
   emits: {
-    "add-ticker": (value) => typeof v
+    "add-ticker": (value) => typeof value === "string" 
