@@ -54,4 +54,7 @@ export default {
   },
 
   components: {
-   
+    AddButton,
+  },
+
+  method
