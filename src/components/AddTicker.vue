@@ -57,4 +57,6 @@ export default {
     AddButton,
   },
 
-  method
+  methods: {
+    add() {
+   
