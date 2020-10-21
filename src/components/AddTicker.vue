@@ -59,4 +59,5 @@ export default {
 
   methods: {
     add() {
-      if (this.tic
+      if (this.ticker.length === 0) {
+  
