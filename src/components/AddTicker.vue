@@ -60,4 +60,6 @@ export default {
   methods: {
     add() {
       if (this.ticker.length === 0) {
-  
+        return;
+      }
+     
