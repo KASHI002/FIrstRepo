@@ -62,4 +62,4 @@ export default {
       if (this.ticker.length === 0) {
         return;
       }
-     
+      this.$emit("add-ticke
