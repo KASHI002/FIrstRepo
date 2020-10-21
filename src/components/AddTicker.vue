@@ -59,4 +59,4 @@ export default {
 
   methods: {
     add() {
-   
+      if (this.tic
