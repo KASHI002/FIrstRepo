@@ -63,4 +63,5 @@ export default {
         return;
       }
       this.$emit("add-ticker", this.ticker);
-     
+      this.ticker = "";
+    }
