@@ -33,3 +33,28 @@
             fill="#718096"
             data-original="#000000"
           ></path>
+        </g>
+      </svg>
+    </button>
+  </section>
+</template>
+
+<script>
+export default {
+  name: "TickerGraph",
+  props: {
+    ticker: {
+      type: Object,
+      default() {
+        return {};
+      },
+    },
+    graph: {
+      type: Array,
+      default() {
+        return [];
+      },
+    },
+  },
+  emits: ["graph-reset"],
+  data() {
