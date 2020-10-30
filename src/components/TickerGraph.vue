@@ -58,3 +58,24 @@ export default {
   },
   emits: ["graph-reset"],
   data() {
+    return {
+      maxGraphElements: 1,
+    };
+  },
+
+  computed: {
+    normalizedGraph() {
+      const maxValue = Math.max(...this.graph);
+      const minValue = Math.min(...this.graph);
+
+      if (maxValue === minValue) {
+        return this.graph.map(() => 50);
+      }
+
+      return this.graph.map(
+        (price) => 5 + ((price - minValue) * 95) / (maxValue - minValue)
+      );
+    },
+  },
+
+  methods: {
