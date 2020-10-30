@@ -79,3 +79,20 @@ export default {
   },
 
   methods: {
+    calculateMaxGraphElevents() {
+      if (!this.$refs.graph) {
+        return;
+      }
+      this.maxGraphElements = this.$refs.graph.clientWidth / 38;
+    },
+    reset() {
+      this.$emit("graph-reset");
+    },
+  },
+
+  watch: {
+    graph: {
+      handler() {
+        this.$nextTick().then(this.calculateMaxGraphElevents);
+      },
+      deep: true,
