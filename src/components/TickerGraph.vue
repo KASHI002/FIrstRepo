@@ -96,3 +96,15 @@ export default {
         this.$nextTick().then(this.calculateMaxGraphElevents);
       },
       deep: true,
+    },
+  },
+
+  mounted() {
+    window.addEventListener("resize", this.calculateMaxGraphElevents);
+  },
+
+  beforeUnmount() {
+    window.removeEventListener("resize", this.calculateMaxGraphElevents);
+  },
+};
+</script>
