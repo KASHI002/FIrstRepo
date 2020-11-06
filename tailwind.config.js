@@ -1,2 +1,2 @@
 module.exports = {
-  purge: ["./
+  purge: ["./public/**/*.html", "./s
