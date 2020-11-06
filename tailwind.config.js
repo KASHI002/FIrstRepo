@@ -1,1 +1,2 @@
-module.expor
+module.exports = {
+  purge: ["./
