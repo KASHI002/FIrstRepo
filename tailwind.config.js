@@ -1,3 +1,3 @@
 module.exports = {
   purge: ["./public/**/*.html", "./src/**/*.vue"],
-  darkMode: 
+  darkMode: false, // or 'med
