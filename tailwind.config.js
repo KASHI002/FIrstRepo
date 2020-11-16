@@ -5,4 +5,6 @@ module.exports = {
     extend: {},
   },
   variants: {
-    ex
+    extend: {},
+  },
+  plu
