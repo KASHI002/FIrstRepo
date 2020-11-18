@@ -7,4 +7,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plu
+  plugins: [
+      require("@tail
