@@ -8,4 +8,6 @@ module.exports = {
     extend: {},
   },
   plugins: [
-      require("@tail
+      require("@tailwindcss/forms")
+  ],
+};
