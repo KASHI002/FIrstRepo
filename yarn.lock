@@ -178,3 +178,28 @@
   version "7.16.0"
   resolved "https://registry.yarnpkg.com/@babel/helper-remap-async-to-generator/-/helper-remap-async-to-generator-7.16.0.tgz#d5aa3b086e13a5fe05238ff40c3a5a0c2dab3ead"
   integrity sha512-MLM1IOMe9aQBqMWxcRw8dcb9jlM86NIw7KA0Wri91Xkfied+dE0QuBFSBjMNvqzmS0OSIDsMNC24dBEkPUi7ew==
+  dependencies:
+    "@babel/helper-annotate-as-pure" "^7.16.0"
+    "@babel/helper-wrap-function" "^7.16.0"
+    "@babel/types" "^7.16.0"
+
+"@babel/helper-replace-supers@^7.16.0":
+  version "7.16.0"
+  resolved "https://registry.yarnpkg.com/@babel/helper-replace-supers/-/helper-replace-supers-7.16.0.tgz#73055e8d3cf9bcba8ddb55cad93fedc860f68f17"
+  integrity sha512-TQxuQfSCdoha7cpRNJvfaYxxxzmbxXw/+6cS7V02eeDYyhxderSoMVALvwupA54/pZcOTtVeJ0xccp1nGWladA==
+  dependencies:
+    "@babel/helper-member-expression-to-functions" "^7.16.0"
+    "@babel/helper-optimise-call-expression" "^7.16.0"
+    "@babel/traverse" "^7.16.0"
+    "@babel/types" "^7.16.0"
+
+"@babel/helper-simple-access@^7.16.0":
+  version "7.16.0"
+  resolved "https://registry.yarnpkg.com/@babel/helper-simple-access/-/helper-simple-access-7.16.0.tgz#21d6a27620e383e37534cf6c10bba019a6f90517"
+  integrity sha512-o1rjBT/gppAqKsYfUdfHq5Rk03lMQrkPHG1OWzHWpLgVXRH4HnMM9Et9CVdIqwkCQlobnGHEJMsgWP/jE1zUiw==
+  dependencies:
+    "@babel/types" "^7.16.0"
+
+"@babel/helper-skip-transparent-expression-wrappers@^7.16.0":
+  version "7.16.0"
+  resolved "https://registry.yarnpkg.com/@babel/helper-skip-transparent-expression-wrappers/-/helper-skip-transparent-expression-wrappers-7.16.0.tgz#0ee3388070147c3ae051e487eca3ebb0e2e8bb09"
