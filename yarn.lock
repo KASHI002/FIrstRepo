@@ -606,3 +606,20 @@
   version "7.16.0"
   resolved "https://registry.yarnpkg.com/@babel/plugin-transform-for-of/-/plugin-transform-for-of-7.16.0.tgz#f7abaced155260e2461359bbc7c7248aca5e6bd2"
   integrity sha512-5QKUw2kO+GVmKr2wMYSATCTTnHyscl6sxFRAY+rvN7h7WB0lcG0o4NoV6ZQU32OZGVsYUsfLGgPQpDFdkfjlJQ==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.14.5"
+
+"@babel/plugin-transform-function-name@^7.16.0":
+  version "7.16.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-function-name/-/plugin-transform-function-name-7.16.0.tgz#02e3699c284c6262236599f751065c5d5f1f400e"
+  integrity sha512-lBzMle9jcOXtSOXUpc7tvvTpENu/NuekNJVova5lCCWCV9/U1ho2HH2y0p6mBg8fPm/syEAbfaaemYGOHCY3mg==
+  dependencies:
+    "@babel/helper-function-name" "^7.16.0"
+    "@babel/helper-plugin-utils" "^7.14.5"
+
+"@babel/plugin-transform-literals@^7.16.0":
+  version "7.16.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-literals/-/plugin-transform-literals-7.16.0.tgz#79711e670ffceb31bd298229d50f3621f7980cac"
+  integrity sha512-gQDlsSF1iv9RU04clgXqRjrPyyoJMTclFt3K1cjLmTKikc0s/6vE3hlDeEVC71wLTRu72Fq7650kABrdTc2wMQ==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.14.5"
