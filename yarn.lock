@@ -1283,3 +1283,20 @@
     "@vue/babel-sugar-composition-api-inject-h" "^1.2.1"
     "@vue/babel-sugar-composition-api-render-instance" "^1.2.4"
     "@vue/babel-sugar-functional-vue" "^1.2.2"
+    "@vue/babel-sugar-inject-h" "^1.2.2"
+    "@vue/babel-sugar-v-model" "^1.2.3"
+    "@vue/babel-sugar-v-on" "^1.2.3"
+
+"@vue/babel-sugar-composition-api-inject-h@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@vue/babel-sugar-composition-api-inject-h/-/babel-sugar-composition-api-inject-h-1.2.1.tgz#05d6e0c432710e37582b2be9a6049b689b6f03eb"
+  integrity sha512-4B3L5Z2G+7s+9Bwbf+zPIifkFNcKth7fQwekVbnOA3cr3Pq71q71goWr97sk4/yyzH8phfe5ODVzEjX7HU7ItQ==
+  dependencies:
+    "@babel/plugin-syntax-jsx" "^7.2.0"
+
+"@vue/babel-sugar-composition-api-render-instance@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@vue/babel-sugar-composition-api-render-instance/-/babel-sugar-composition-api-render-instance-1.2.4.tgz#e4cbc6997c344fac271785ad7a29325c51d68d19"
+  integrity sha512-joha4PZznQMsxQYXtR3MnTgCASC9u3zt9KfBxIeuI5g2gscpTsSKRDzWQt4aqNIpx6cv8On7/m6zmmovlNsG7Q==
+  dependencies:
+    "@babel/plugin-syntax-jsx" "^7.2.0"
