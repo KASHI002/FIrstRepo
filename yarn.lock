@@ -2073,3 +2073,24 @@ babel-plugin-polyfill-corejs3@^0.3.0:
   resolved "https://registry.yarnpkg.com/babel-plugin-polyfill-corejs3/-/babel-plugin-polyfill-corejs3-0.3.0.tgz#fa7ca3d1ee9ddc6193600ffb632c9785d54918af"
   integrity sha512-JLwi9vloVdXLjzACL80j24bG6/T1gYxwowG44dg6HN/7aTPdyPbJJidf6ajoA3RPHHtW0j9KMrSOLpIZpAnPpg==
   dependencies:
+    "@babel/helper-define-polyfill-provider" "^0.2.4"
+    core-js-compat "^3.18.0"
+
+babel-plugin-polyfill-regenerator@^0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/babel-plugin-polyfill-regenerator/-/babel-plugin-polyfill-regenerator-0.2.3.tgz#2e9808f5027c4336c994992b48a4262580cb8d6d"
+  integrity sha512-JVE78oRZPKFIeUqFGrSORNzQnrDwZR16oiWeGM8ZyjBn2XAT5OjP+wXx5ESuo33nUsFUEJYjtklnsKbxW5L+7g==
+  dependencies:
+    "@babel/helper-define-polyfill-provider" "^0.2.4"
+
+balanced-match@^1.0.0:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.2.tgz#e83e3a7e3f300b34cb9d87f615fa0cbf357690ee"
+  integrity sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==
+
+base64-js@^1.0.2:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
+  integrity sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==
+
+base@^0.11.1:
