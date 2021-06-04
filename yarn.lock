@@ -3688,3 +3688,21 @@ eslint-plugin-prettier@^3.3.1:
 
 eslint-plugin-vue@^7.0.0:
   version "7.20.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-7.20.0.tgz#98c21885a6bfdf0713c3a92957a5afeaaeed9253"
+  integrity sha512-oVNDqzBC9h3GO+NTgWeLMhhGigy6/bQaQbHS+0z7C4YEu/qK/yxHvca/2PTZtGNPsCrHwOTgKMrwu02A9iPBmw==
+  dependencies:
+    eslint-utils "^2.1.0"
+    natural-compare "^1.4.0"
+    semver "^6.3.0"
+    vue-eslint-parser "^7.10.0"
+
+eslint-scope@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/eslint-scope/-/eslint-scope-4.0.3.tgz#ca03833310f6889a3264781aa82e63eb9cfe7848"
+  integrity sha512-p7VutNr1O/QrxysMo3E45FjYDTeXBy0iTltPFNSqKAIfjDSXC+4dj+qfyuD8bfAXrW/y6lW3O76VaYNPKfpKrg==
+  dependencies:
+    esrecurse "^4.1.0"
+    estraverse "^4.1.1"
+
+eslint-scope@^5.0.0, eslint-scope@^5.1.1:
+  version "5.1.1"
